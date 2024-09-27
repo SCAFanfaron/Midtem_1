@@ -1,0 +1,12 @@
+git log - The most basic analytics is performed by the command git log. It shows a list of all the commits made, sorted by date added.
+
+git show - Each commit has a unique set of characters - an identifier (also called a "hash").
+Using a hash, you can view all the changes made within a single commit
+
+git blame - What if we don't know the commit, but we want to know who last changed a specific line in a file?
+The command is suitable for this git blame <путь до файла>. This command displays the file and next to each line 
+shows who changed it and in what commit
+
+git grep - The command git grepsearches for a match with the specified string in all project files.
+This is a very convenient command for quick analysis from the terminal
+
